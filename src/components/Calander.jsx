@@ -8,6 +8,7 @@ function Calander() {
     
     const [pickedDate, setpickedDate] = useState(new Date());
     const [contact, setcontact] = useState(null)
+    const [prevcontact, setprevcontact] = useState(null)
     
     const sign =['<', '>']
     const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
