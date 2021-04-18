@@ -1,0 +1,9 @@
+.contact{
+    margin: 2px;
+    padding: 1px;
+}
+.contact:hover{
+    cursor: pointer;
+    background-color: rgba(44, 88, 219, 0.274);
+
+}

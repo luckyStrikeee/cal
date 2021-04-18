@@ -1,0 +1,24 @@
+.header{
+    padding-left: 3px;
+    color: rgb(30, 95, 50);
+    text-align: center;
+    font-size: small;
+}
+/* span{
+    border-radius: 50px;
+    background-color: hotpink;
+} */
+
+.body{
+    padding-left: 5px;
+    color: blue;
+
+    width: 100px;
+    height: 80px;
+
+    font-family: "Times New Roman", Times, serif;
+}
+.body :hover{
+    background-color: rgb(233, 233, 233);
+    cursor: pointer;
+}

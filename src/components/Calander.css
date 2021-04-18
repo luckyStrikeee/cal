@@ -1,0 +1,44 @@
+table, td, th {
+    border: 1px solid rgba(0, 0, 0, 0.329);
+  }
+
+.calander{
+    margin: 5px;
+    width: 90%;
+    /* align-content: center; */
+    border-collapse: collapse;
+
+}
+
+th {
+    padding-left: 5px;
+    background-color:rgba(211, 211, 211, 0.13);
+    text-align: center;
+    font-size: small;
+    font-weight: normal;
+}
+.td-day{
+    overflow-y: scroll;
+}
+
+.td-day::-webkit-scrollbar {
+    display: none;
+}
+
+
+.calander-bar {
+    text-align: center;
+}
+
+.contacts-list{
+      width: 20%;
+
+  }
+.meeting-list {
+    width: 20%;
+}
+
+.x1{
+    background-color:yellow;
+}
+  
