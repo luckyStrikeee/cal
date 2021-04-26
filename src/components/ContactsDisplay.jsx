@@ -9,7 +9,7 @@ function ContactsDisplay(props) {
                 // document.getElementById('m-'+props.contact['name']).className = 'x1'
             }
                 
-                }> {props.contact['name']}</div>
+                }> {props.contact['name']}: {props.contact['phone']}</div>
            
             
         </div>
